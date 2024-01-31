@@ -1,4 +1,4 @@
-# Node Story - GitHub Readme
+# Lost Night - Short Narrative PoC
 
 ## Overview
 

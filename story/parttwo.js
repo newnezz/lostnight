@@ -50,11 +50,11 @@ async function partTwo() {
     `)
 
     // Second Choice > Self
-    let answer2;
-    while (answer2 !== 'y' && answer2 != 'n') {
-        answer2 = await getInput('Say something? (y / n)')
+    let answer;
+    while (answer !== 'y' && answer != 'n') {
+        answer = await getInput('Say something? (y / n)')
     }
-    switch (answer2) {
+    switch (answer) {
         case 'y':
     console.log(`
     You attempt to make small conversation,
@@ -74,6 +74,7 @@ async function partTwo() {
         default:
             break;
     }
+    await getInput('')
 }
 
 module.exports = partTwo;

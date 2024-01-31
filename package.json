@@ -1,6 +1,6 @@
 {
   "name": "lostnight",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,11 @@
   },
   "bin": {
     "willoughby": "./index.js"
-  },  
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "keypress": "^0.2.1"
+  }
 }

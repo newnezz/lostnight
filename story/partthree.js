@@ -4,7 +4,7 @@ async function partThree() {
     console.log(`
     As you leave the elevator,
     it seems the man is gone.
-    Gues I didn't notice him get off earlier.
+    Guess I didn't notice him get off earlier.
     `)
     
     await getInput('')
@@ -22,7 +22,7 @@ async function partThree() {
 
     await getInput('')
     console.log(`
-    Arriving at your door, you decide to take a closer look at the animal.
+    Arriving at your door, you decide focus on the animal.
     Petting it gives you comfort and you consider taking it in.
     Having a friend would be nice, maybe you could finally sleep.
     `)
@@ -33,6 +33,7 @@ async function partThree() {
     "OWNER: MAXWELL WHITNEY, APT 248 Johnson Street"
     You consider this for a moment.
     `)
+    await getInput('')
 
 // Third Choice > Envy
 let answer;
@@ -41,13 +42,15 @@ while (answer !== 'y' && answer != 'n') {
 }
 switch (answer) {
     case 'n':
-        console.log(`You pet the cat, but leave it outside.
-                     I may be alone, but the cat is not mine to take.`)
+    console.log(`
+    You pet the cat, but leave it outside.
+    I may be alone, but the cat is not mine to take.`)
         envy = false;
         break;
     case 'y':
-        console.log(`The owner doesn't seem to care if the cat is out this late.
-        I'll take better care of it.`)
+    console.log(`
+    The owner doesn't seem to care if the cat is out this late.
+    I'll take better care of it.`)
         envy = true;
         break;
     default:

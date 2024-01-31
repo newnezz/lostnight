@@ -16,8 +16,8 @@ async function partTwo() {
     Hours later, sleep has not come.
     ${fear ? 
         `Creaking of a door startles you.
-         Looking around you notice the front door open.
-         Did I forget to lock it?`
+        Looking around you notice the front door open.
+        Did I forget to lock it?`
          : ''
     }
     `)

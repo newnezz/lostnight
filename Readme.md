@@ -1,4 +1,7 @@
 # Lost Night - Short Narrative PoC
+<p align="center">
+    <img src="lost-night-main-image.jpg" alt="Description of the image">
+</p>
 
 ## Overview
 
